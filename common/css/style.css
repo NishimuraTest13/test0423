@@ -104,12 +104,11 @@ color: #000000;
 
   footer div{
     color:#646464;
-    background-color: aliceblue
+    background-color: aliceblue;
   }
 
   footer div div ul{
     list-style: none;
   }
-
 
 }
