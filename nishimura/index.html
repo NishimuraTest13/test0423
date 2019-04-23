@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>西村のポートフォリオ</title>
+<link href="common/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+ <header>
+  <div id="headerInner">
+  <div id="logo"><img src="images/logo.png" alt=""/></div>
+   <nav>
+     <ul>
+       <li>Skill</li>
+       <li><span>Contact</span></li>
+     </ul>
+   </nav>
+  </div>
+ </header>
+ <div id="contents">
+   <div id="mainPhoto"></div>
+   <div id="profile">
+     <dl>
+       <dt>名前:西村　鼓太郎</dt>
+       <dt>技能:基本情報技術者</dt>
+       <dt>趣味:読書・執筆・エレクトーン・ゲーム</dt>
+     </dl>
+   </div>
+   <form action="#" method="post">
+     <table>
+       <tr>
+         <th>お名前</th>
+         <td><input type="text" required placeholder="(お名前をいれてください)"></td>
+       </tr><tr>
+         <th>お問い合わせ種別</th>
+         <td>
+           <input name="option" type="radio" value="work" required>仕事
+           <input name="option" type="radio" value="question">質問
+           <input name="option" type="radio" value="else">その他
+         </td>
+       </tr><tr>
+         <th>お問い合わせ内容</th>
+         <td>
+           <textarea name="content" cols="60" rows="5" required></textarea>
+         </td>
+       </tr>
+       <input type="submit" value="送信">
+     </table>
+   </form>
+ </div>
+</body>
+</html>
