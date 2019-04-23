@@ -1,25 +1,50 @@
 @charset "utf-8";
-footer div div{
+
+
+
+
+
+@media only screen and (max-width:640px){
+  
+}
+
+@media only screen and (min-width:641px){
+  
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+footer class div{
   width:300px;
   float: left;
   margin: auto;
+  vertical-align: middle;
   
 }
+
+#footerLogo{
+  height:40px;
+}
+
 
 footer{
   height: 150px;
   background-color: #E8AC16
 }
 
-footer div{
+footer class{
   color:#646464;
-  background-color: aliceblue
+  background-color: aliceblue;
 }
 
-footer div div ul{
+footer class div ul{
   list-style: none;
+  height:50px;
 }
 
-footer p{
-  clear:both;
-}
