@@ -1,0 +1,10 @@
+@charset "utf-8";
+footer div{
+  width:300px;
+  float: left;
+  margin: auto;
+}
+
+footer div ul{
+  list-style: none;
+}
