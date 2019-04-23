@@ -1,10 +1,25 @@
 @charset "utf-8";
-footer div{
+footer div div{
   width:300px;
   float: left;
   margin: auto;
+  
 }
 
-footer div ul{
+footer{
+  height: 150px;
+  background-color: #E8AC16
+}
+
+footer div{
+  color:#646464;
+  background-color: aliceblue
+}
+
+footer div div ul{
   list-style: none;
+}
+
+fotter p{
+  clear:both;
 }
